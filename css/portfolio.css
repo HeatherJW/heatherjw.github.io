@@ -19,6 +19,16 @@ h3 {
     color: #99e5d8;
 }
 
+.navbar-default {
+    background-color: #5a005a;
+    border-color: #5a005a;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #c282e1;
+    font-size: medium;
+}
+
 .showcase-image > img {
     display: block;
     margin-left: auto;
