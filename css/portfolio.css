@@ -25,16 +25,15 @@ h3 {
     border-color: #5a005a;
 }
 
-.navbar-default .navbar-nav>li:active {
-    background-color: #810081;
-}
-
 .navbar-default .navbar-nav>li>a {
     color: #c282e1;
     font-size: medium;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #810081;
     color: #99e5d8;
     font-size: medium;
 }
