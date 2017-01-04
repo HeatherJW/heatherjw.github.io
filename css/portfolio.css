@@ -25,7 +25,9 @@ h3 {
     border-color: #5a005a;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>a:focus,
+.navbar-default .navbar-nav>a:hover{
     color: #c282e1;
     font-size: medium;
 }
