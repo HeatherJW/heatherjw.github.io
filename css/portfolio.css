@@ -1,6 +1,6 @@
 body {
     margin: 25px;
-    background-color: #fcf7fd;
+    background-color: #eff7f7;
 }
 
 .title {
@@ -8,32 +8,36 @@ body {
 }
 
 h1 {
-    color: #1a6558;
+    color: #336666;
 }
 
 h2 {
-    color: #228473;
+    color: #108989;
     font-size: large;
 }
 
 h3 {
-    color: #99e5d8;
+    color: #108989;
     font-size: medium
 }
 
+a {
+    color: #336666;
+}
+
 .nav-pills .nav-link {
-    color: #c282e1;
+    color: #663333;
     font-size: medium;
 }
 
 .nav-pills .nav-link.active {
-    background-color: #810081;
-    color: #99e5d8;
+    background-color: #891010;
+    color: #eff7f7;
     font-size: medium;
 }
 
 .page-header {
-    border-bottom: 5px solid #5a005a;
+    border-bottom: 2px solid #663333;
     margin-bottom: 20px;
 }
 
