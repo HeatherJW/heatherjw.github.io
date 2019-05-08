@@ -1,9 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Heather Williams - Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/portfolio.css">
   </head>
   <body>
-    <p>Python developer for the win!</p>
+    <div class="row page-header">
+      <div class="col-md-6 title">
+        <h1>Heather Williams</h1>
+        <h3>Python developer</h3>
+      </div>
+      <div class="col-md-6">
+        <img src="images/heather1.jpg"></img>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="row">
+        <div class="col-3">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-about-tab" data-toggle="pill" href="#v-pills-about" role="tab" aria-controls="v-pills-about" aria-selected="true">About me</a>
+            <a class="nav-link" id="v-pills-work-tab" data-toggle="pill" href="#v-pills-work" role="tab" aria-controls="v-pills-work" aria-selected="false">Work experience</a>
+            <a class="nav-link" id="v-pills-qualifications-tab" data-toggle="pill" href="#v-pills-qualifications" role="tab" aria-controls="v-pills-qualifications" aria-selected="false">Qualifications</a>
+            <a class="nav-link" id="v-pills-qualifications-tab" data-toggle="pill" href="#v-pills-other" role="tab" aria-controls="v-pills-other" aria-selected="false">Find me</a>
+          </div>
+        </div>
+        <div class="col-9">
+          <div class="tab-content" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-about" role="tabpanel" aria-labelledby="v-pills-about-tab">
+                <h2>At work</h2>
+                  <p>I am a python developer. I work on all aspects of the website from getting new pages up to ensuring that the code works just right.</p>
+                  <p>I am passionate about testing. I love seeing well written tests and figuring out how to ensure new code is sufficiently tested.</p>
+                <h2>At play</h2>
+                  <p>I hike, read and bake.</p>
+                  <p>I belong to Meridian Hiking club to get out on the mountain with a great group of people.</p>
+                  <p>I belong to two different bookclubs, each with a unique focus.</p>
+            </div>
+            <div class="tab-pane fade" id="v-pills-work" role="tabpanel" aria-labelledby="v-pills-work-tab">
+              <h2>Current</h2>
+                <p>Python developer at Siyavula Education</p>
+              <h2>Past</h2>
+                <p>Technical content editor at Siyavula Education</p>
+            </div>
+            <div class="tab-pane fade" id="v-pills-qualifications" role="tabpanel" aria-labelledby="v-pills-qualifications-tab">
+              <h2>Education</h2>
+                <p>BSc Hons chemistry (UCT)</p>
+              <h2>Skills</h2>
+              <h3>Back-end web development</h3>
+                <ul>
+                  <li>Python</li>
+                  <li>SQL</li>
+                  <li>SQLAlchemy</li>
+                  <li>Pyramid</li>
+                  <li>WTForms</li>
+                  <li>Jinja</li>
+                  <li>Latex</li>
+                  <li>LXML</li>
+                  <li>Testing</li>
+                </ul>
+              <h3>Operations</h3>
+                <ul>
+                  <li>Gunicorn</li>
+                  <li>Nginx</li>
+                  <li>HaProxy</li>
+                </ul>
+              <h3>Frontend</h3>
+                <ul>
+                  <li>JS</li>
+                  <li>React</li>
+                  <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="tab-pane fade" id="v-pills-other" role="tabpanel" aria-labelledby="v-pills-other-tab">
+              <p><a href="https://www.linkedin.com/in/heatherjwilliams/">LinkedIn</a></p>
+              <p><a href="https://youtu.be/VUyyr52aEm0">PyConZA 2018 talk</a></p>
+              <a href="files/Heather_Williams_CV.pdf" download>Download my CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
